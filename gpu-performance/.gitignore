@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+models/*.onnx
+models/*.ts
+profile_results.json
+benchmarks/results/*
+!benchmarks/results/.gitkeep

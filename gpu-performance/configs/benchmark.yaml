@@ -1,0 +1,10 @@
+model_path: ../../epv_phase3/epv_model.pt
+input_dim: 69
+batch_size: 1
+device: auto
+execution_provider: CPUExecutionProvider
+precision: float32
+warmup: 10
+iterations: 100
+repeats: 3
+output_dir: ../benchmarks/results
